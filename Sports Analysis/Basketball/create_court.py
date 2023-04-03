@@ -1,57 +1,42 @@
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+import matplotlib as mpl
 
-def create_court():
-    #Create figure and axis
-    fig, ax = plt.subplots(figsize=(12, 11))
+def create_court(ax, color):
     
-    #Draw half-court lines 
-    ax.plot([-250, 250], [-47.5,-47.5], linewidth=2, color='black')
-    ax.plot([-250, 250], [422.5,422.5], linewidth=2, color='black')
-    ax.plot([-250, -250], [-47.5,422.5], linewidth=2, color='black')
-    ax.plot([250, 250], [-47.5,422.5], linewidth=2, color='black')
-    ax.plot([0, 0], [-47.5,422.5], linewidth=2, color='black')
+    # Short corner 3pt lines 
+    ax.plot([-220, -220], [0, 140], linewidth=2, color=color)
+    ax.plot([220, 220], [0, 140], linewidth=2, color=color)
+ #3PT Arc
+    ax.add_artist(mpl.patches.Arc((0, 140), 440, 315, theta1=0, theta2=180, facecolor='none', edgecolor=color, lw=2))
     
-    #Draw key and basket
-    ax.plot([-80, -80], [-47.5, 142.5], linewidth=2, color='black')
-    ax.plot([80, 80], [47.5, 142.5], linewidth=2, color='black')
-    ax.plot([-80, 80], [142.5, 142.5], linewidth=2, color='black')
-    ax.add_artist(plt.Circle((0, 142.5), radius=60, linewidth=2, color='black', fill=False))
-    ax.add_artist(plt.Circle((0, 142.5), radius=6, linewidht=2, color='black', fill=False))
+ # Lane and Key
+    ax.plot([-80, -80], [0, 190], linewidth=2, color=color)
+    ax.plot([80, 80], [0, 190], linewidth=2, color=color)
+    ax.plot([-60, -60], [0, 190], linewidth=2, color=color)
+    ax.plot([60, 60], [0, 190], linewidth=2, color=color)
+    ax.plot([-80, 80], [190, 190], linewidth=2, color=color)
+    ax.add_artist(mpl.patches.Circle((0, 190), 60, facecolor='none', edgecolor=color, lw=2))
     
-    #Draw corner three lines 
-    ax.plot([220, 220], [-47.5, 92.5], linewidth=2, color='black')
-    ax.plot([-220, -220], [-47.5, 92.5], linewidth=2, color='black')
-    ax.plot([220, 250], [92.5, 92.5], linewidth=2, color='black')
-    ax.plot([-220, -250], [92.5, 92.5], linewidth=2, color='black')
-    ax.plot([220, 250], [-47.5, -47.5], linewidth=2, color='black')
-    ax.plot([-220, -250], [-47.5, -47.5], linewidth=2, color='black')
-
+# Rim
+    ax.add_artist(mpl.patches.Circle((0, 60), 15, facecolor='none', edgecolor=color, lw=2))
     
-# Draw wing three lines 
-    ax.plot([250, 220], [142.5, 92.5], linewidth=2, color='black')
-    ax.plot([-250, -220], [142.5, 92.5], linewidth=2, color='black')
-    ax.plot([250, 250], [92.5, 142.5], linewidth=2, color='black')
-    ax.plot([-250, -250], [92.5, 142.5], linewidth=2,color='black')
+# Backboard
+    ax.plot([-30, 30], [40, 40], linewidth=2, color=color)
+   # Remove ticks
+    ax.set_xticks([])
+    ax.set_yticks([])
     
-# Draw top of the key three lines 
-    ax.plot([80, 120], [422.5, 382.5], linewidth=2, color='black')
-    ax.plot([-80, -120], [422.5, 382.5], linewidth=2, color='black')
-    ax.plot([80, 80], [422.5, 352.5], linewidth=2, color='black')
-    ax.plot([-80, -80], [422.5, 352.5], linewidth=2, color='black')
-    ax.plot([120, 120], [422.5, 352.5], linewidth=2, color='black')
-    ax.plot([-120, -120], [422.5, 352.5], linewidth=2, color='black')
-    
-    #Draw free throw circle 
-    t = np.linspace(0, np.pi*2, 100)
-    x = 60 * np.cos(t)
-    y = 60 * np.sin(t) + 142.5
-    ax.plt(x, y, color='black', linewidth=2)
-    
-    # Draw restriced area 
-    ax.add_patch(patches.Rectangel((-40, 0), 80, 190, linewidth=2, edgecolor='black', facecolor='none'))
-    
-    # Set the limits of the plot to match the court dimensions 
+# Set axis limits
     ax.set_xlim(-250, 250)
     ax.set_ylim(0, 470)
     
-    return ax
+# General plot parameters
+mpl.rcParams['font.family'] = 'Avenir'
+mpl.rcParams['font.size'] = 18
+mpl.rcParams['axes.linewidth'] = 2
+# Draw basketball court
+fig = plt.figure(figsize=(4, 3.76))
+ax = fig.add_axes([0, 0, 1, 1])
+ax = create_court(ax, 'black')
+plt.show()
