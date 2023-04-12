@@ -1,4 +1,4 @@
-Source.Name.1,Source.Name.2,Team,Total,1Q,2Q,3Q,4Q,fecha.Source.Name.1,fecha.Source.Name.2,fecha.Day,fecha.Time,fecha.AM:PM
+gameid_,Source,Team,Total,1Q,2Q,3Q,4Q,fecha.Source.Name.1,fecha.Source.Name.2,fecha.Day,fecha.Time,fecha.AM:PM
 20211114,"boxscore.csv","Bayamon",,,,,,20211114,"fecha.csv",2021-08-30 00:00:00.000,1899-12-30 08:00:00.000,"PM"
 20211114,"boxscore.csv","Carolina",,,,,,20211114,"fecha.csv",2021-08-30 00:00:00.000,1899-12-30 08:00:00.000,"PM"
 20221139,"boxscore.csv","Humacao",,,,,,20221139,"fecha.csv",2022-04-25 00:00:00.000,1899-12-30 08:00:00.000,"PM"
