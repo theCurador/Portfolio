@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb668744-8f79-4078-a457-08c970a1fed3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Baseball/MLB/pythagorean_Expecations/MLB_pythagorean_expectation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Baseball/MLB/pythagorean_Expecations/MLB_pythagorean_expectation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/.ipynb_checkpoints/BSN_DATA_PULL-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/.ipynb_checkpoints/BSN_datapull_2023-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/.ipynb_checkpoints/BSN_datapull_2023-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/.ipynb_checkpoints/player_acq-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/BSN_data_pull.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/BSN_datapull_2023.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/BSN_datapull_2023.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/.ipynb_checkpoints/20221011_home-checkpoint.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/.ipynb_checkpoints/20221012_away-checkpoint.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221011_away.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221011_away.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221011_home.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221011_home.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221012_away.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221012_away.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221012_home.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221012_home.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221013_away.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221013_away.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221013_home.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/dataset/2022/20221013_home.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sports Analysis/Basketball/BSN/player_acq.ipynb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OGRBlINq6tAXiuEdL8ZWnAxvjm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
