@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as sl 
 
 # load the DF
-results_df = pd.read_csv('/Users/jeanzayas/Desktop/Divergence/Portfolio/Sports Analysis/Basketball/NBA/Goat_results.csv')
+results_df = pd.read_csv('/Users/jeanzayas/Desktop/Divergence/Portfolio/Sports_Analysis/Basketball/NBA/Goat_results.csv')
 
 # Define a function to display the box score for a single game
 def display_boxscore(game_index):
