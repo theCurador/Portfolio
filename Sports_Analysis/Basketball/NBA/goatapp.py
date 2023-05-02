@@ -30,10 +30,14 @@ def display_recap():
     sl.write(f"LJ WIN prob: {results_df['LJ WIN prob'].mean():.2%}")
     sl.write(f"MJ WIN prob: {results_df['MJ WIN prob'].mean():.2%}")
     
-    
-# Display the box score and overall recap for a selected game\
-start_index = sl.slider("Select starting game:", 0, results_df.shape[0]-1) 
-end_index = sl.slider("Select ending game:", 0, start_index, results_df.shape[0]-1)
-for game_index in range(start_index, end_index+1):
-    display_boxscore(game_index)
-display_recap(start_index, end_index)
+# Add a search bar for game number 
+game_number = sl.text_input("Enter a game number between 1 and 20,000:", "1")
+try: 
+    game_index = int(game_number) - 1 # Convert to 0- based index
+    if game_index >= 0 and game_index < results_df.shape[0]:
+        display_boxscore(game_index)
+    else:
+        sl.write("Invalid game number")  
+except: 
+    sl.write("Please enter a valid integer for the game number")
+display_recap()
