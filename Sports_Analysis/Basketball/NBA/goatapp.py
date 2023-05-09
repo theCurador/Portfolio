@@ -25,8 +25,8 @@ def display_boxscore(game_index):
 def display_recap():
     sl.write("### Overall Recap")
     sl.write(f"Simulated Games: {results_df.shape[0]}")
-    sl.write(f"LeBron wins: {results_df['LeBron wins:']}")
-    sl.write(f"Jordan wins: {results_df['Jordan wins:']}")
+    sl.write(f"LeBron wins: {results_df.iloc[game_index]['LeBron wins:']}")
+    sl.write(f"Jordan wins: {results_df.iloc[game_index]['Jordan wins:']}")
     sl.write(f"LJ WIN prob: {results_df['LJ WIN prob'].mean():.2%}")
     sl.write(f"MJ WIN prob: {results_df['MJ WIN prob'].mean():.2%}")
     
